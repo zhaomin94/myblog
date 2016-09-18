@@ -6,3 +6,24 @@
 #####个人网站： http://www.sosout.com/(目前正在备案)
 #####个人简书： http://www.jianshu.com/users/23b9a23b8849/latest_articles
 #####github博 客： 
+
+### 快速开始
+
+```
+# git clone
+git clone https://github.com/sosout/myblog.git
+ 
+# install dependencies
+npm install
+
+# serve at localhost:3000
+npm start
+
+# 访问路径
+http://localhost:3000/
+
+####历史更新
+
+  *2016.09.18*
+
+  	1. 初始化项目搭建;
