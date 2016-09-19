@@ -1,9 +1,12 @@
 var express = require('express');
-var router = express.Router();
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+module.exports.autoroute = {
+    'get': {
+        '/': getIndex // 博客-首页
+    }
+};
 
-module.exports = router;
+// 博客-首页
+function getIndex(req, res, next) {
+	res.render('home/index', { title: '搜搜就出现' });
+}
