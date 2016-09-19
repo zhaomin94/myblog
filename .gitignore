@@ -5,3 +5,5 @@ node_modules/
 
 # 忽略自动生成的dist文件
 npm-debug.log
+
+test.html
